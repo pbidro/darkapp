@@ -26,16 +26,11 @@
       ></i>
       <router-link class="m-0 navbar-brand" to="/">
         <img
-          :src="
-            this.$store.state.darkMode ||
-            this.$store.state.sidebarType === 'bg-default'
-              ? logoWhite
-              : logo
-          "
+          src="https://cdn-icons-png.flaticon.com/512/3924/3924816.png"
           class="navbar-brand-img h-100"
           alt="main_logo"
         />
-        <span class="ms-2 font-weight-bold me-2">Argon Dashboard 2</span>
+        <span class="ms-2 font-weight-bold me-2">Dark Items App v0.1</span>
       </router-link>
     </div>
     <hr class="mt-0 horizontal dark" />
